@@ -1,0 +1,30 @@
+
+[Thursday 21st April 2016 11:03:11 AM]
+Undefined variable: rofe
+Error occurred in /Users/sooryen_macbook001/Sites/myFinalproject/errors/ErrorHandler.php
+ON LINE 77
+
+[Thursday 21st April 2016 11:03:11 AM]
+Use of undefined constant “undefined” - assumed '“undefined”'
+Error occurred in /Users/sooryen_macbook001/Sites/myFinalproject/errors/ErrorHandler.php
+ON LINE 79
+
+[Thursday 21st April 2016 11:03:11 AM]
+Undefined index: “undefined”
+Error occurred in /Users/sooryen_macbook001/Sites/myFinalproject/errors/ErrorHandler.php
+ON LINE 79
+
+[Thursday 21st April 2016 11:04:03 AM]
+Undefined variable: rofe
+Error occurred in /Users/sooryen_macbook001/Sites/myFinalproject/errors/ErrorHandler.php
+ON LINE 77
+
+[Thursday 21st April 2016 11:04:03 AM]
+Use of undefined constant “undefined” - assumed '“undefined”'
+Error occurred in /Users/sooryen_macbook001/Sites/myFinalproject/errors/ErrorHandler.php
+ON LINE 79
+
+[Thursday 21st April 2016 11:04:03 AM]
+Undefined index: “undefined”
+Error occurred in /Users/sooryen_macbook001/Sites/myFinalproject/errors/ErrorHandler.php
+ON LINE 79

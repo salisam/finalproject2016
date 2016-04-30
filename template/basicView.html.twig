@@ -1,0 +1,42 @@
+{% extends "index.html.twig" %}
+
+{% block TABS %}
+    {# dont show #}
+{% endblock %}
+
+{% block CONTENT %}
+    <div class="content login-box">
+        <div class="login-main">
+            {#<div class="wrap">#}
+            <h1>LOGIN OR CREATE AN ACCOUNT</h1>
+            <a class="b_btn" href="../../myFinalproject/controllers/controller.php?cmd=11">Continue Shopping</a>
+            <div class="login-right">
+                <h3>REGISTERED CUSTOMERS</h3>
+                <p>If you have an account with us, please log in.</p>
+                <form method="post" action="../../myFinalproject/controllers/controller.php?cmd=13"
+                      enctype="application/x-www-form-urlencoded" accept-charset="UTF-8">
+                    <div>
+                        <span>User Address<label>*</label></span>
+                        <input name="username" type="text">
+                    </div>
+                    <div>
+                        <span>Password<label>*</label></span>s
+                        <input name="password" type="password">
+                    </div>
+                    <a class="forgot" href="#">Forgot Your Password?</a>
+                    <input type="submit" value="Login"/>
+                </form>
+            </div>
+
+            <div class="login-left">
+                <h3>NEW CUSTOMERS</h3>
+                <p>By creating an account with our store, you will be able to move through the checkout process faster,
+                    store multiple shipping addresses, view and track your orders in your account and more.</p>
+                <a class="acount-btn" href="register.html">Creat an Account</a>
+            </div>
+
+            <div class="clear"></div>
+            {#</div>#}
+        </div>
+    </div>
+{% endblock %}

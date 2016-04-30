@@ -1,0 +1,21 @@
+{% extends "index.html.twig" %}
+
+{% block CONTENT %}
+
+    {#{% for x in allSneakers %}#}
+    <ul>
+        {#{% for x in data %}#}
+        <li>
+            <div class="image"><a href="#"><img src="css/images/image1.jpg" alt=""/></a></div>
+            <p> Item Number: <span>{{x.id }}</span><br/>
+                Size List : <span>{{x.size}}</span><br/>
+                Color : <span>{{x.color}}</span><br/>
+                Brand Name: <a href="#">{{x.brand_name}}</a></p>
+            <p class="price">Wholesale Price: <strong>{{x.price}}</strong></p>
+        </li>
+            {#{% endfor %}#}
+
+    </ul>
+       {#{% endfor %}#}
+
+{% endblock %}
